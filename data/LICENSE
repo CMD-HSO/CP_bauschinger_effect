@@ -1,0 +1,26 @@
+Experimental and Numerical Dataset on the Bauschinger Effect in Polycrystalline
+Austenitic Steel 316L
+
+Copyright (C) 2026 René Zandomeni, Thomas Seifert (Offenburg University of Applied
+Sciences), Wenting Zhao, Seyed Nima Babaei, Ulrich Krupp (RWTH Aachen University)
+
+All files in this directory and its subdirectories (finite element models, Abaqus
+input files, material parameter files, EBSD data and cyclic stress-strain data) are
+licensed under the Creative Commons Attribution-ShareAlike 4.0 International License
+(CC BY-SA 4.0).
+
+  Summary:    https://creativecommons.org/licenses/by-sa/4.0/
+  Legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+
+This license applies to the data only. The source code in this repository is licensed
+separately under the GNU Affero General Public License v3.0 (see ../LICENSE).
+
+Attribution: When reusing these data, please cite the dataset
+
+  R. Zandomeni, T. Seifert, W. Zhao, S. N. Babaei, U. Krupp (2026).
+  Experimental and Numerical Dataset on the Bauschinger Effect in Polycrystalline
+  Austenitic Steel 316L (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.21869496
+
+and the associated article https://doi.org/10.1016/j.mechmat.2026.105821.
