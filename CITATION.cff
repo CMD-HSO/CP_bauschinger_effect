@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the associated article
+  (see preferred-citation) and, where applicable, the dataset
+  https://doi.org/10.5281/zenodo.21869496.
+title: "CP_bauschinger_effect: Single crystal plasticity UMAT with local and non-local kinematic hardening"
+type: software
+authors:
+  - family-names: Zandomeni
+    given-names: René
+    orcid: "https://orcid.org/0009-0004-9400-3284"
+    affiliation: "Institute for Digital Engineering and Production (IDEeP), Offenburg University of Applied Sciences"
+  - family-names: Seifert
+    given-names: Thomas
+    orcid: "https://orcid.org/0000-0001-9993-7968"
+    affiliation: "Institute for Digital Engineering and Production (IDEeP), Offenburg University of Applied Sciences"
+  - family-names: Hartmaier
+    given-names: Alexander
+    orcid: "https://orcid.org/0000-0002-3710-1169"
+    affiliation: "Interdisciplinary Centre for Advanced Materials Simulation (ICAMS), Ruhr-Universität Bochum"
+repository-code: "https://github.com/CMD-HSO/CP_bauschinger_effect"
+license: AGPL-3.0-only
+keywords:
+  - crystal plasticity
+  - Bauschinger effect
+  - kinematic hardening
+  - geometrically necessary dislocations
+  - Abaqus UMAT
+  - 316L
+references:
+  - type: dataset
+    title: "Experimental and Numerical Dataset on the Bauschinger Effect in Polycrystalline Austenitic Steel 316L"
+    doi: 10.5281/zenodo.21869496
+    authors:
+      - family-names: Zandomeni
+        given-names: René
+        orcid: "https://orcid.org/0009-0004-9400-3284"
+      - family-names: Seifert
+        given-names: Thomas
+        orcid: "https://orcid.org/0000-0001-9993-7968"
+      - family-names: Zhao
+        given-names: Wenting
+        orcid: "https://orcid.org/0009-0008-1825-7986"
+      - family-names: Babaei
+        given-names: Seyed Nima
+        orcid: "https://orcid.org/0000-0001-7780-1154"
+      - family-names: Krupp
+        given-names: Ulrich
+        orcid: "https://orcid.org/0000-0003-4928-7770"
+    year: 2026
+  - type: software
+    title: "Crystal_Plasticity_UMAT"
+    url: "https://github.com/ICAMS/Crystal_Plasticity_UMAT"
+    authors:
+      - name: "ICAMS, Ruhr-Universität Bochum"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Zandomeni
+      given-names: René
+      orcid: "https://orcid.org/0009-0004-9400-3284"
+    - family-names: Seifert
+      given-names: Thomas
+      orcid: "https://orcid.org/0000-0001-9993-7968"
+    - family-names: Hartmaier
+      given-names: Alexander
+      orcid: "https://orcid.org/0000-0002-3710-1169"
+  title: "Quantitative assessment of the Bauschinger effect in cyclically loaded polycrystals using single crystal plasticity modeling with local and non-local kinematic hardening"
+  journal: "Mechanics of Materials"
+  volume: 222
+  start: 105821
+  year: 2026
+  doi: 10.1016/j.mechmat.2026.105821
