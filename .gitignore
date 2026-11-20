@@ -1,1 +1,52 @@
+# --- UMAT source code: NOT YET PUBLIC ----------------------------------------
+src/
 
+# --- 80^3 meshes (too large for Git, download from Zenodo) ------------------
+# python scripts/download_512k_meshes.py
+data/Models/Mesh3_512k/
+data/Models/Mesh3_512k_conforming/
+data/Dataset.zip
+
+# --- Abaqus job/output files ------------------------------------------------
+*.odb
+*.odb_f
+*.msg
+*.sta
+*.prt
+*.sim
+*.lck
+*.res
+*.mdl
+*.stt
+*.023
+*.ipm
+*.com
+*.abq
+*.pac
+*.sel
+*.fil
+*.rpy
+*.rec
+abaqus.rpy*
+abaqus_acis.log
+
+# --- Fortran / compiler build artefacts ----------------------------------
+*.o
+*.obj
+*.mod
+*.dll
+*.so
+*.exe
+
+# --- Python -------------------------------------------------------------------
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Editors / OS --------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+desktop.ini
