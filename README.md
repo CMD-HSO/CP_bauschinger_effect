@@ -13,8 +13,7 @@ experimental data of the article
 > **Status of the code:** The UMAT version used in the article contains third-party
 > numerical routines whose license does not permit redistribution of source code. These
 > routines are currently being replaced by independently implemented, openly licensed
-> equivalents. The code will then be released in `src/` under the AGPL-3.0 license,
-> together with a verification against the results of the article.
+> equivalents. The code will then be released in `src/` under the AGPL-3.0 license.
 >
 > Until then, please refer to the ICAMS crystal plasticity UMAT
 > (https://github.com/ICAMS/Crystal_Plasticity_UMAT, AGPL-3.0), on which this
