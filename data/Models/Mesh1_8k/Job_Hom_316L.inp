@@ -1,0 +1,131 @@
+**editor:
+**date: 2026-03-14 15:55:52.210488
+**
+**PARTS
+**
+*Part, name=P-CUBE
+*INCLUDE, Input=AbaqusInput\Hom_316L_grains.inp
+*End Part
+**
+**
+**ASSEMBLY
+**
+*Assembly, name=A-CUBE
+*Instance, name=I-CUBE, part=P-CUBE
+*End Instance
+**
+*Node
+1, 1.250E-02, 0.000E+00, 0.000E+00
+2, 0.000E+00, 1.250E-02, 0.000E+00
+3, 0.000E+00, 0.000E+00, 1.250E-02
+*Nset, nset=n_RP1
+1
+*Nset, nset=n_RP2
+2
+*Nset, nset=n_RP3
+3
+*Nset, nset=n_RPall
+1, 2, 3, 
+**
+**AssemblyNodeSets
+*INCLUDE, Input=AbaqusInput\Hom_316L_ANodes.inp
+**
+**CONSTRAINS
+**
+*INCLUDE, Input=AbaqusInput\Hom_316L_bc.inp
+**
+*End Assembly
+**
+** AMPLITUDE
+*INCLUDE, Input=..\AbaqusInput_AmpTmp\Amplitude.inp
+**
+**MATERIALS
+**
+*INCLUDE, Input=AbaqusInput\Hom_316L_mat.inp
+**
+** TIMEPOINTS
+*INCLUDE, Input=..\AbaqusInput_AmpTmp\Timepoints.inp
+**
+**Boundary Conditions
+**
+*Boundary
+n_4631, 1, 1
+n_4631, 2, 2
+n_4631, 3, 3
+**
+**
+*Initial Conditions, type=solution
+allnodes, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+0.0, 0.0, 0.0, 0.0, 0.0
+**
+**STEP: Step-1
+**
+*Step, name=Step-1, nlgeom=YES, extrapolation=NO, inc=100000000
+*static
+0.050, 10.118, 1.0E-20, 1.000
+**
+**BOUNDARY CONDTION
+**Boundary mech
+*Boundary, amplitude=Amp-1
+n_RP1, 1, 1, 1.000000
+**
+**OUTPUT REQUEST
+**
+*Restart, write, frequency=0
+**
+**FIELD OUTPUT
+**
+*Output, field, time points=TIMEPOINTS-1
+*Element Output, directions=YES
+LE, S, TEMP, COORD,
+SDV ,
+*Node Output
+U, NT, RFL
+**
+*Output, field, time points=TIMEPOINTS-1
+*Node Output, nset=N_RPALL
+U
+**
+**HISTORY OUTPUT
+**
+*Output, history, time points=TIMEPOINTS-1
+*Node Output, nset=n_RPall
+RF1, RF2, RF3, U1, U2, U3
+**
+*End Step
